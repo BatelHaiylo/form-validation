@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form validation</title>
+</head>
+<body>
+    
+    <form onsubmit="return formValidation()">
+        <h1>Register</h1>
+        <label for="fName">first name:</label><br>
+        <input type="text" name="fName" id="f_name" required="true"><br>
+        <span id="f_n_span"></span>
+        <br><br>
+        <label for="lName">last name:</label><br>
+        <input type="text" name="lName" id="l_name"required="true"><br>
+        <span id="l_n_span"></span>
+        <br><br>
+        <label for="bDate">date of birth:</label><br>
+        <input type="date" name="bDate" id="date_birt"><br>
+        <span id="d_span"></span>
+        <br><br>
+        <label for="email">mail:</label><br>
+        <input type="email" name="email" id="e_mail"><br>
+        <span id="e_span"></span>
+        <br><br>
+        <label for="cellNum">cell phone number:</label><br>
+        <input type="number" name="cellNum" id="p_number"><br>
+        <span id="p_span"></span>
+        <br><br>
+        <label for="f_password">password:</label><br>
+        <input type="password" name="f_password" id="password1"><br>
+        <span id="p_1_span"></span>
+        <br><br>
+        <label for="s_password">verification password:</label><br>
+        <input type="password" name="s_password" id="password2"><br>
+        <span id="p_2_span"></span>
+        <br><br>
+        <button id="form_btn" onclick="">SUBMIT</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

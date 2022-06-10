@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2.5vh;
+}
+
+form{
+    display: block;
+    border: 5px groove plum;
+    width: 35vw;
+    height: 92vh;
+    text-align: center;
+}
+
+#form_btn{
+    background-color: black;
+    color: white;
+}
